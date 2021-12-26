@@ -1,0 +1,23 @@
+@import '../../variables.scss';
+
+.menu-list {
+    display: flex;
+    align-items: flex-end;
+
+    margin: 0;
+
+    list-style-type: none;
+
+    &__item {
+        margin-right: 40px;
+        padding-top: 30px;
+        margin-bottom: 110px;
+    }
+
+    &__link {
+        font-size: 12px;
+        font-weight: 400;
+
+        color: $white;
+    }
+}
